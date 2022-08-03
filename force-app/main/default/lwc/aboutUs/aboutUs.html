@@ -1,0 +1,65 @@
+<template>
+
+    <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none about_div">
+        <lightning-layout multiple-rows>
+
+            <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
+                class="slds-align_absolute-center">
+                <div class=" slds-p-around_medium profile-pictures">
+
+                    <img src={profileImage} alt="" loading="lazy" /> 
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
+                class="slds-align_absolute-center">
+                
+                <div class="slds-p-around_medium profile_section">
+                    <div class="porfile_title">
+                        <h2>Profile</h2>
+                       </div>
+                    <p class="profile_paragra">A certified and professional salesforce developer with two years of experience in development and
+                        website design. Strong creative and analytical skills. Team player with an eye for detail. </p>
+                    <div class="skillS_div">
+                        <!-- <template for:each={skills} for:item="skillData">
+                        <div class="slds-p-around_medium" key={skillData.id}>
+                            <p>{skillData.skill}</p>
+                            <lightning-progress-bar value={skillData.percentage} size="large" variant="circular"></lightning-progress-bar>
+                       </div>
+                    </template> -->
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName1}</p>
+                            <lightning-progress-bar value={skillBarvalue1} size="large" variant="circular" >
+                            </lightning-progress-bar>
+                        </div>
+
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName2}</p>
+                            <lightning-progress-bar value={skillBarvalue2} size="large" variant="circular">
+                            </lightning-progress-bar>
+                        </div>
+
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName3}</p>
+                            <lightning-progress-bar value={skillBarvalue3} size="large" variant="circular">
+                            </lightning-progress-bar>
+                        </div>
+
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName4}</p>
+                            <lightning-progress-bar value={skillBarvalue4} size="large" variant="circular">
+                            </lightning-progress-bar>
+                        </div>
+
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName5}</p>
+                            <lightning-progress-bar value={skillBarvalue5} size="large" variant="circular">
+                            </lightning-progress-bar>
+                        </div>
+
+                    </div>
+
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

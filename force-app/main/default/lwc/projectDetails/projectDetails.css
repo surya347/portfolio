@@ -1,0 +1,63 @@
+:host {
+    --slds-c-accordion-heading-font-size: 1.2rem !important;
+    --slds-c-accordion-heading-text-color:'#181818';
+  }
+
+.carousel_Image{
+    /* height: 10px; */
+    width: 80%;
+}
+
+span.slds-accordion__summary-content{
+font-size: 28px !important;
+}
+
+.project_section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.project_title{
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 4px solid #A020F0;
+    border-bottom-width: thick;
+    width: 15%;
+}
+
+.project_title h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+
+
+.project_info{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .carousel_Image{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .project_info{
+        font-size: 10px;
+    }
+
+}

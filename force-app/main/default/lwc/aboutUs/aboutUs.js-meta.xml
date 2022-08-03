@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="skillName1"
+                type="String"
+                label="Skill 1"
+                description="What skill you have"
+                default="Salesforce"
+            />
+
+            <property
+            name="skillBarvalue1"
+            type="String"
+            label="skill percentage 1"
+            description="What skill you have"
+            default="50"
+        />
+
+            <property
+                name="skillName2"
+                type="String"
+                label="Skill 2"
+                description="What skill you have"
+                default="Salesforce"
+            />
+
+            <property
+                name="skillBarvalue2"
+                type="String"
+                label="skill percentage 2"
+                description="What skill you have"
+                default="50"
+            />
+
+            <property
+                name="skillName3"
+                type="String"
+                label="Skill 3"
+                description="What skill you have"
+                default="Salesforce"
+            />
+
+            <property
+                name="skillBarvalue3"
+                type="String"
+                label="skill percentage 3"
+                description="What skill you have"
+                default="50"
+            />
+
+            <property
+                name="skillName4"
+                type="String"
+                label="Skill 4"
+                description="What skill you have"
+                default="Salesforce"
+            />
+
+            <property
+            name="skillBarvalue4"
+            type="String"
+            label="skill percentage 4"
+            description="What skill you have"
+            default="50"
+        />
+
+            <property
+                name="skillName5"
+                type="String"
+                label="Skill 5"
+                description="What skill you have"
+                default="Salesforce"
+            />
+
+
+            <property
+                name="skillBarvalue5"
+                type="String"
+                label="skill percentage 5"
+                description="What skill you have"
+                default="50"
+            />
+
+
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle> 

@@ -1,0 +1,66 @@
+<template>
+
+    <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none ">
+        <lightning-layout multiple-rows>
+
+            <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
+                class="slds-align_absolute-center">
+                <div class=" slds-p-around_medium carousel_Image">
+
+                    <img src={ProjectImage3} alt="" /> 
+
+
+                   <!-- project carousel section  -->
+
+                   <!-- <lightning-carousel>
+                        <lightning-carousel-image
+                            src = {ProjectImage1} 
+                           >
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src = {ProjectImage2} 
+                           >
+                        </lightning-carousel-image>
+                        <lightning-carousel-image
+                            src = {ProjectImage3} 
+                           >
+                        </lightning-carousel-image>
+                        
+                </lightning-carousel> -->
+
+                   <!-- project carousel section  -->
+
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
+                class="slds-align_absolute-center">
+                
+                <div class="slds-p-around_medium project_section">
+                    <div class="project_title">
+                        <h2>Projects</h2>
+                       </div>
+                    <div class="projects_div">
+                    <lightning-accordion >
+
+                         <template if:true={projectData}>
+                         <template for:each={projectData} for:item="project">
+                            <lightning-accordion-section name={project.id} label={project.Name} key={project.id} class="tim">
+                                <p class="project_info">{project.Description}</p>
+                                <p class="slds-p-top_medium project_info">Technology : <strong>{project.technology}</strong></p> 
+                            </lightning-accordion-section>
+                        </template>
+                        </template>
+
+                        <template if:false={projectData}>
+                           No Project
+                        </template>
+
+                    </lightning-accordion>
+                   </div>
+                       
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+    
+</template> 

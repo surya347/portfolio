@@ -1,0 +1,54 @@
+<template>
+
+ <div class="header_div">
+    <h3 class="logo">
+        Salesforce Noob
+       <!-- <img src={sfnoob_logo} alt="sfnoob_logo" /> -->
+
+    </h3>
+
+    <template if:false={isCloseIcon}>
+     <lightning-button  class="menu-bar" onclick={onMenuClick} label="Menu" data-id="menu"></lightning-button>
+    </template>
+
+    <template if:true={isCloseIcon}>
+     <lightning-button  class="menu-bar" onclick={onCloseClick} label="Close" data-id="close"></lightning-button>
+    </template>
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a onclick={navigationToHomePage}>Home</a></li>
+            <li class="nav-item"><a onclick={navigationToAboutPage}>About</a></li>
+            <li class="nav-item"><a href="#">Projects ></a>
+                <ul>
+                    <li class="nav-item"><a href="#">LWC</a></li>
+                    <li class="nav-item"><a href="#">Apex</a></li>
+                    <li class="nav-item"><a href="#">Salesforce</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+          </ul>
+    </nav>
+
+    <template if:true={isCloseIcon}>
+    <nav class="navbars">
+        <ul class="nav-list">
+            <li class="nav-item"><a onclick={navigationToHomePage}>Home</a></li>
+            <li class="nav-item"><a onclick={navigationToAboutPage}>About</a></li>
+            <li class="nav-item"><a href="#">Projects ></a> 
+                <ul>
+                    <li class="nav-item"><a href="#">LWC</a></li>
+                    <li class="nav-item"><a href="#">Apex</a></li>
+                    <li class="nav-item"><a href="#">Salesforce</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+          </ul>
+    </nav>
+</template>
+
+</div>
+
+
+    
+</template>
