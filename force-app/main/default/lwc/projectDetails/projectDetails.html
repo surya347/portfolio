@@ -1,66 +1,66 @@
 <template>
 
-    <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none ">
-        <lightning-layout multiple-rows>
+	<div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none ">
+		<lightning-layout multiple-rows class="project_section_top">
 
-            <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
-                class="slds-align_absolute-center">
-                <div class=" slds-p-around_medium carousel_Image">
+			<lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
+				class="slds-align_absolute-center slds-order_2 slds-large-order_1 project_section">
 
-                    <img src={ProjectImage3} alt="" /> 
+				<div class="slds-p-around_medium project_section">
+					<div class="project_title">
+						<h2>Projects</h2>
+					</div>
+					<div class="projects_div">
+						<template if:true={wiredProjectList}>
+								<div class="accordion">
+									<ul class="slds-accordion">
+										<template for:each={wiredProjectList} for:item="project">
 
+											<li class="slds-accordion__list-item" key={project.Id}>
+												<section class="slds-accordion__section " data-id={project.Id}>
+													<div class="" aria-controls="referenceId-46" aria-expanded="false"
+														title="Accordion summary" style="display: flex;
+                                                             justify-content: space-between;align-items: center;">
+														<h1 class="slds-accordion__summary-content accordion_header">
+															{project.Name}</h1>
 
-                   <!-- project carousel section  -->
+														<lightning-icon icon-name={iconName} size="xx-small"
+															alternative-text="show" class="my_icon"
+															onclick={handleClickIcon} data-name={project.Id}
+															name={project.Id}>
+														</lightning-icon>
+													</div>
+													<div class="slds-accordion__content slds-m-top_small para_text" id="referenceId-46">
+                                                         <p class="para_text">{project.Description__c}</p>
+                                                         <p class="slds-p-top_medium para_text"><strong>Technology </strong>: {project.technology}</p> 
+                                                         <p class="slds-p-top_medium para_text" if:true={project.Website__c}><strong>Website : <a target="_top" href={project.Website__c}>{project.Website__c}</a></strong></p>
+                                                     </div>
+												</section>
+											</li>
+										</template>
+									</ul>
+								</div>
 
-                   <!-- <lightning-carousel>
-                        <lightning-carousel-image
-                            src = {ProjectImage1} 
-                           >
-                        </lightning-carousel-image>
-                        <lightning-carousel-image
-                            src = {ProjectImage2} 
-                           >
-                        </lightning-carousel-image>
-                        <lightning-carousel-image
-                            src = {ProjectImage3} 
-                           >
-                        </lightning-carousel-image>
-                        
-                </lightning-carousel> -->
+						</template>
 
-                   <!-- project carousel section  -->
+						<template if:false={wiredProjectList}>
+							No Project Available
+						</template>
 
+					</div>
+
+				</div>
+			</lightning-layout-item>
+
+			<lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
+				class="slds-align_absolute-center slds-order_1 slds-large-order_2">
+				<div class=" slds-p-around_medium carousel_Image">
+
+					<img src={ProjectImage3} alt="" />
                 </div>
-            </lightning-layout-item>
-            <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="6"
-                class="slds-align_absolute-center">
-                
-                <div class="slds-p-around_medium project_section">
-                    <div class="project_title">
-                        <h2>Projects</h2>
-                       </div>
-                    <div class="projects_div">
-                    <lightning-accordion >
+			</lightning-layout-item>
 
-                         <template if:true={projectData}>
-                         <template for:each={projectData} for:item="project">
-                            <lightning-accordion-section name={project.id} label={project.Name} key={project.id} class="tim">
-                                <p class="project_info">{project.Description}</p>
-                                <p class="slds-p-top_medium project_info">Technology : <strong>{project.technology}</strong></p> 
-                            </lightning-accordion-section>
-                        </template>
-                        </template>
+		</lightning-layout>
+	</div>
 
-                        <template if:false={projectData}>
-                           No Project
-                        </template>
-
-                    </lightning-accordion>
-                   </div>
-                       
-                </div>
-            </lightning-layout-item>
-        </lightning-layout>
-    </div>
-    
-</template> 
+</template>

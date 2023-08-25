@@ -6,6 +6,10 @@
     </types>
     <types>
         <members>*</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>ApexComponent</name>
     </types>
     <types>
@@ -31,6 +35,34 @@
     <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>
+     <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>FunkyTrendz Customer</members>
+        <name>Profile</name>
+    </types>
+     <types>
+        <members>Projects_Record_Page</members>
+        <name>FlexiPage</name>
     </types>
     <version>54.0</version>
 </Package>

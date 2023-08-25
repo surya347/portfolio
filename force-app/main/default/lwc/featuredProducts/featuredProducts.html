@@ -1,0 +1,9 @@
+<template>
+    <div class="featured">
+        <h1 class="text-featured">Featured Products</h1>
+        <template if:true={isfeatureavailable}>
+            <c-cards products={featuredArray}></c-cards>
+        </template>
+    </div>
+    
+</template>

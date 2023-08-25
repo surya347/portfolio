@@ -1,8 +1,15 @@
 {
   "orgName": "Demo company",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["DefaultWorkflowUser", "Communities", "CustomerCommunityPlus", "ForceComPlatform", "FieldAuditTrail","PublishExpBuilderBasedSna"],
   "settings": {
+    "orgPreferenceSettings": {
+      "networksEnabled": true,
+      "chatterEnabled": true
+  },
+  "communitiesSettings": {
+      "enableNetworksEnabled": true
+  },
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },

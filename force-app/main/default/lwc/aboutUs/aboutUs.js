@@ -52,5 +52,5 @@ export default class AboutUs extends LightningElement {
 
    
 
-    profileImage = Images + '/funky_image/skills.png';
+    profileImage = Images + '/Funky_Image/skills.png';
 }

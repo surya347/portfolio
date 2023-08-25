@@ -14,7 +14,7 @@
                 type="String"
                 label="Skill 1"
                 description="What skill you have"
-                default="Salesforce"
+                default="Salesforce Lightning"
             />
 
             <property
@@ -22,7 +22,7 @@
             type="String"
             label="skill percentage 1"
             description="What skill you have"
-            default="50"
+            default="80"
         />
 
             <property
@@ -30,7 +30,7 @@
                 type="String"
                 label="Skill 2"
                 description="What skill you have"
-                default="Salesforce"
+                default="Lightning Web Component"
             />
 
             <property
@@ -38,7 +38,7 @@
                 type="String"
                 label="skill percentage 2"
                 description="What skill you have"
-                default="50"
+                default="90"
             />
 
             <property
@@ -46,7 +46,7 @@
                 type="String"
                 label="Skill 3"
                 description="What skill you have"
-                default="Salesforce"
+                default="Apex, Triggers, Flows"
             />
 
             <property
@@ -54,7 +54,7 @@
                 type="String"
                 label="skill percentage 3"
                 description="What skill you have"
-                default="50"
+                default="80"
             />
 
             <property
@@ -62,7 +62,7 @@
                 type="String"
                 label="Skill 4"
                 description="What skill you have"
-                default="Salesforce"
+                default="REST API Integration"
             />
 
             <property
@@ -70,7 +70,7 @@
             type="String"
             label="skill percentage 4"
             description="What skill you have"
-            default="50"
+            default="70"
         />
 
             <property
@@ -78,7 +78,7 @@
                 type="String"
                 label="Skill 5"
                 description="What skill you have"
-                default="Salesforce"
+                default="Service,Experience Cloud"
             />
 
 
@@ -87,10 +87,10 @@
                 type="String"
                 label="skill percentage 5"
                 description="What skill you have"
-                default="50"
+                default="85"
             />
 
 
         </targetConfig>
     </targetConfigs>
-</LightningComponentBundle> 
+</LightningComponentBundle>

@@ -1,0 +1,89 @@
+{
+  "appPageId" : "0fe1a244-f687-41bf-9d08-bf47261739d3",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "db297b08-e84c-4aec-9531-26f300ec3078",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonClickProductOrFamilyName" : "Pedri",
+        "buttonText" : "Products",
+        "imgOrVideo" : "Image",
+        "internalResource" : true,
+        "opacity" : 5,
+        "overlay" : false,
+        "resourceUrl" : "hero_image1.jpg",
+        "slogan" : "Business To Improve LifeStyles",
+        "title" : "FunkyTrendz"
+      },
+      "componentName" : "c:hero",
+      "id" : "96c348b2-48e5-4eda-add6-7470d01bb744",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:featuredProducts",
+      "id" : "e48e6565-c48b-47aa-a922-8dbd2664e4f6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af3fb4db-b46b-4fd0-b322-40baad415a12",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "8b5ba644-f207-431e-a013-4a72f23724c4",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "id" : "836c470a-4731-4d70-ba18-4d0568bb95c6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "display" : "LEVELS_POINTS",
+        "excludeInternalUsers" : false,
+        "knowledgeLabel" : "Knows about",
+        "numberOfUsers" : 5,
+        "showContextUser" : false,
+        "showTooltip" : false,
+        "showUserRank" : false,
+        "title" : "Leaderboard",
+        "tooltipText" : "Earn points and climb to new levels when you contribute in the experience!"
+      },
+      "componentName" : "forceCommunity:reputationLeaderboard42",
+      "id" : "809281ac-1012-49ca-865b-46d7501db196",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fcd4076c-292d-4fb2-b819-f7427fd80845",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "316bdc07-26d3-4b12-8654-c58a206fdd57",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8eee54bd-0a9c-4cbe-bb16-2f9e1d2d05ce",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f75abdd3-9126-4dad-835f-ed35956b9516",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

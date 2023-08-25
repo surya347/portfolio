@@ -1,0 +1,13 @@
+.dummy{
+	color : black;
+}
+
+.count{
+	font-size: 0.7rem;
+	margin-top: -5px;
+	float: right;
+	border: none;
+	outline: none;
+    text-align: end;
+	background: white;
+}

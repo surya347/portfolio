@@ -1,0 +1,78 @@
+{
+  "appPageId" : "f0d77dfe-3d58-40af-b300-f6253d3ec82f",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "72401c7f-a861-4929-b4fe-836549bda26d",
+  "label" : "About Us",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"e1179d35-1f37-44dc-be55-b87a891c1bd4\",\"columns\":[{\"UUID\":\"8a3fc757-2fdb-4713-b640-89ca5b5b88db\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "e1179d35-1f37-44dc-be55-b87a891c1bd4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "skillBarvalue1" : "100",
+            "skillBarvalue2" : "100",
+            "skillBarvalue3" : "100",
+            "skillBarvalue4" : "100",
+            "skillBarvalue5" : "100",
+            "skillName1" : "Salesforcs",
+            "skillName2" : "Salesforce",
+            "skillName3" : "Salesforce",
+            "skillName4" : "Salesforce",
+            "skillName5" : "Salesforce"
+          },
+          "componentName" : "c:aboutUs",
+          "id" : "d577f084-c0c1-457c-bc25-09a89eea4289",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:certficationSection",
+          "id" : "658dc7b8-d0e6-4d9a-af9f-6f0ba71eba73",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8a3fc757-2fdb-4713-b640-89ca5b5b88db",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "3008956d-4948-457b-8674-677058632b56",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "About Us",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "7f2ef841-b20e-41ce-90b2-2959b9b92af1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0051d605-d62f-44e4-8cf9-1d9dc8b7acb6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ukk3Q23gm9SMGKlpWHEHpaS2kBK11N",
+  "type" : "view",
+  "viewType" : "custom-about-us"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FT_Orders__c</fullName>
+    <externalId>false</externalId>
+    <label>FT-Orders</label>
+    <referenceTo>FT_Orders__c</referenceTo>
+    <relationshipLabel>FT-Order Items</relationshipLabel>
+    <relationshipName>FT_Order_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

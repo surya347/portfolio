@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "46b921a9-f69d-4cae-a953-c8d439654d6a",
+  "appPageId" : "0fe1a244-f687-41bf-9d08-bf47261739d3",
+  "configurationTags" : [ ],
+  "id" : "da434126-70c8-4c81-9520-ab33ca7680e5",
+  "label" : "Orders",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-orders",
+  "type" : "route",
+  "urlPrefix" : "orders"
+}

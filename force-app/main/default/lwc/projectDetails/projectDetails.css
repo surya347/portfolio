@@ -1,21 +1,6 @@
-:host {
-    --slds-c-accordion-heading-font-size: 1.2rem !important;
-    --slds-c-accordion-heading-text-color:'#181818';
-  }
-
 .carousel_Image{
     /* height: 10px; */
     width: 80%;
-}
-
-span.slds-accordion__summary-content{
-font-size: 28px !important;
-}
-
-.project_section{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 200;
 }
 
 
@@ -28,20 +13,58 @@ font-size: 28px !important;
 }
 
 .project_title h2{
+    font-family: cursive !important;
     font-size: 30px;
     font-weight: 600;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #333;
 }
 
 
 
 .project_info{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Salesforce Sans';
     font-size: 15px;
     font-weight: 400;
     color: #333;
 }
+
+.accordion{
+	background-color: #fff;
+	/* width: 100%; */
+}
+
+.accordion_header{
+    color: #A020F0;
+    font-family: 'Salesforce Sans';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.my_icon{
+    
+--slds-c-icon-color-foreground-default:#A020F0 !important;
+    --slds-c-icon-color-foreground: #A020F0 !important;
+    --slds-c-icon-color-background: #fff;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 50px;
+	font-size: 0px;
+    border: 2px solid #A020F0;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para_text{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+
 
 
 
@@ -49,7 +72,7 @@ font-size: 28px !important;
 
     .carousel_Image{
         height: 100%;
-        width: 100%;
+        width: 80%;
         margin: 0;
         margin-bottom: 2px;
         background-repeat: no-repeat;
@@ -60,4 +83,17 @@ font-size: 28px !important;
         font-size: 10px;
     }
 
+    .project_section_top{
+        width: 89vw !important;
+    }
+
+   
+
+}
+
+
+@media screen and (max-width:600px) {
+ .project_section{
+    width: 95vw !important;
+}
 }

@@ -1,6 +1,6 @@
 <template>
     
-    <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none profilee_div">
+    <div class="slds-p-around_none slds-m-top_x-small slds-m-bottom_medium slds-m-horizontal_none profilee_div" data-id="portfolio-div">
         <lightning-layout multiple-rows>
             <lightning-layout-item padding="around-small" size="2" small-device-size="2" medium-device-size="2" class="slds-align_absolute-center social_icon">
                 <div class=" slds-p-around_medium social_icons">
@@ -8,10 +8,10 @@
                         <img src={youtubeLogo} alt="youtube" class="icon_image" />
                     </a>
 
-                    <a class="Instagram" href="https://www.instagram.com/sfnoob10/?hl=en">
+                    <a class="Instagram" href="https://www.instagram.com/sfnoob10/?hl=en"> 
                         <img src={InstagramLogo} alt="Instagram" class="icon_image"/>
                     </a>
-
+ 
                     <a class="LinkedIn" href="https://www.linkedin.com/in/salesforce-dev-315990221/">
                         <img src={linkedinLogo} alt="LinkedIn" class="icon_image"/>
                     </a>
@@ -20,12 +20,21 @@
             <lightning-layout-item padding="around-small" size="12" small-device-size="12" medium-device-size="5" class="slds-align_absolute-center">
                 <div class=" slds-p-around_medium ">
 
-                      <div class="profile-detail-name ">
-                        <span class="primary_text slds-float_left">
-                          Hello, I'M <span class="highlighted-text">Salesforce Noob</span>
-                        </span><br/>
-                        <h4 class="secondary_text slds-float_left">Salesforce Developer</h4>
-                        <p class="para_text slds-float_left">Salesforce certified developer with high level experience in salesforce development,web design and quality work.</p>
+                      <div class="profile-detail-name slds-grid slds-grid_vertical">
+												<div class="slds-col primary_text">
+												<h1 class="slds-float_left">
+															Hello, I'M <span class="highlighted-text">Surya</span>
+														
+												</h1>
+												</div>
+													
+												<div class="slds-col secondary_text">
+                        <h4 class="slds-float_left">Salesforce Developer</h4>
+												</div>
+													
+												<div class="slds-col">
+                        <p class="para_text slds-float_left para_text">Salesforce certified developer with high level experience in salesforce development,web design and quality work.</p>
+												</div>
                       </div>
                       <div class="profile-options">
                            <button class="btn highlighted-btn ">Project</button>
@@ -45,4 +54,4 @@
             </lightning-layout-item>
         </lightning-layout> 
     </div>
-</template> 
+</template>

@@ -1,0 +1,128 @@
+.my-card {
+    width: 270px;
+    height: auto;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .my-card:hover{
+    box-shadow: 0 17px 29px 0 rgb(0 0 0 / 30%), 0 12px 25px 0 rgba(0, 0, 0, 0.29);
+     
+  }
+
+  .desktop_view{
+    display: initial !important;
+  }
+
+  .mobile_view{
+    display: none !important;
+  }
+  
+  .img-place {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+   
+  .card-img img{
+    width: 271px;
+    height: 215px;
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;
+    /* background-image: url(https://i.pinimg.com/736x/5a/b1/2a/5ab12ae40f4d28572704b7e4d4fadb41.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+  }
+  
+  .card-img:hover {
+    width: 300px;
+  }
+  
+  .card-2-space {
+  padding: 0 40px 20px 40px;
+  }
+  
+  .card-text {
+    padding: 5%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:  #1a1a1a;
+    color: #ffffff;
+  }
+
+  .card-text h1{
+    font-size: 16px;
+  }
+  
+  .card-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .my-btn {
+    width: 100%;
+    background-color: #000000;
+    border: 0px;
+    padding: 8px;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+
+
+  
+  .my-btn:hover {
+    background-color: #666699;
+  }
+
+
+
+  @media only screen and (max-width: 500px){
+
+
+    .desktop_view{
+      display: none !important;
+    }
+
+    .mobile_view{
+      display: initial !important;
+    }
+
+    .my-card {
+        margin: 0 0 20px 0;
+        }
+  }
+  
+  .btn {
+    background-color:  #0d0d0d;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid  #1a1a1a;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 13px;
+    
+  }
+
+  .add_cart_btn{
+    background-color:darkorange ;
+    padding: 5px;
+    border: 1px solid  #1a1a1a;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 6px;
+  }
+  
+  .btn:hover {
+    background-color:  #bfbfbf;  
+    color: #0d0d0d;
+    border: 1px solid   #808080;
+    font-weight: 300px;
+  }

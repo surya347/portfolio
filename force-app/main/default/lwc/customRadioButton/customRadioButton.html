@@ -1,0 +1,32 @@
+<template>
+<lightning-card  variant="Narrow"  title="SOCGB_306" icon-name="standard:account">
+
+<div class="slds-grid slds-wrap slds-align_absolute-center">
+  <div class="slds-col slds-size_6-of-12">
+    <span>
+<div class="slds-p-around_medium">
+  <lightning-radio-group name="radioGroup"
+                          label="Radio Group"
+                          options={options}
+                          value={selectedOption}
+                          onchange={handleChange}
+                          required
+                          variant="label-hidden"
+                          class="my-radio-group"
+                          type="radio"></lightning-radio-group>
+
+   <div class="slds-m-top_small">
+    <template if:true={selectedOption}>
+        <c-custom-accordian selected-project-id={selectedOption}></c-custom-accordian>
+    </template>
+    <template if:false={selectedOption}>
+        <p class="slds-align_absolute-center">Select option to view content</p>
+    </template>
+   </div>
+</div>
+</span>
+  </div>
+  </div>
+</lightning-card> 
+ 
+</template>

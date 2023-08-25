@@ -5,6 +5,21 @@
     padding-top: 20px;
 }
 
+
+.para_text{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.project_info{
+   color: #743dbc ;
+    font-family: 'Salesforce Sans';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 .porfile_title{
     margin-bottom: 20px;
     font-weight: bold;
@@ -14,9 +29,9 @@
 }
 
 .porfile_title h2{
+    font-family: cursive !important;
     font-size: 30px;
     font-weight: 600;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #333;
 }
 
@@ -28,13 +43,6 @@
 
 }
 
-.profile_section p{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 200;
-
-}
 
 
 .profile-pictures img{

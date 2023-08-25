@@ -1,0 +1,60 @@
+{
+  "appPageId" : "f0d77dfe-3d58-40af-b300-f6253d3ec82f",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "9165e0c1-78fb-4b99-af86-a0b86b290c52",
+  "label" : "Contact",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"c22286db-4f9c-4be3-bf92-03b813c0c347\",\"columns\":[{\"UUID\":\"0a198148-e885-422f-85fc-91df245cb0be\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "c22286db-4f9c-4be3-bf92-03b813c0c347",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:certficationSection",
+          "id" : "ece3129b-f895-4dbd-b010-f6d65f40386b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "0a198148-e885-422f-85fc-91df245cb0be",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "69728125-b42e-4d80-affd-586a65969d0f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Contact",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "2aae2683-3638-4172-ad04-cf9a4ce88829",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "69c8b692-5050-46c4-84d5-01dda41a546c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ukk3Q23gm9SMGKlpWHEHpaS2kBK11N",
+  "type" : "view",
+  "viewType" : "custom-contact"
+}

@@ -1,0 +1,31 @@
+<template>
+	<template if:true={wiredProjectList}>
+		<div class="accordion">
+			<ul class="slds-accordion">
+				<template for:each={wiredProjectList} for:item="project">
+
+					<li class="slds-accordion__list-item" key={project.Id}>
+						<section class="slds-accordion__section " data-id={project.Id}>
+									<div class="" aria-controls="referenceId-46" aria-expanded="false" title="Accordion summary"
+                          style="display: flex;
+                          justify-content: space-between;align-items: center;">
+                    <h1 class="slds-accordion__summary-content accordion_header">{project.Name}</h1>
+                    <lightning-icon icon-name={iconName}
+                                    size="xx-small"
+                                    alternative-text="show" 
+                                    class="my_icon"  
+                                    onclick={handleClickIcon}
+                                    data-name={project.Id}  
+									name={project.Id}  
+                                      >
+                      </lightning-icon>
+                  </div>
+							<div class="slds-accordion__content slds-m-top_small" id="referenceId-46">{project.Description__c}</div>
+						</section>
+					</li>
+				</template>
+			</ul>
+		</div>
+	</template>
+
+</template>

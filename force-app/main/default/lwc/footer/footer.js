@@ -4,11 +4,11 @@ import Images from '@salesforce/resourceUrl/Funky_Image';
 
 export default class Footer extends LightningElement {
 
-    youtubeLogo = Images + '/funky_image/youtubeLogo.jpg';
-    InstagramLogo = Images + '/funky_image/InstagramLogo.webp';
-    linkedinLogo = Images + '/funky_image/linkedinLogo.png';
-    sfnoob_logo = Images + '/funky_image/sfnoob_logo.jpg';
+    youtubeLogo = Images + '/Funky_Image/youtubeLogo.jpg';
+    InstagramLogo = Images + '/Funky_Image/InstagramLogo.webp';
+    linkedinLogo = Images + '/Funky_Image/linkedinLogo.png';
+    sfnoob_logo = Images + '/Funky_Image/sfnoob_logo.jpg';
 
     
 
-}  
+}

@@ -1,0 +1,35 @@
+<template>
+
+    <lightning-card  variant="Narrow"  title="Hello" icon-name="standard:account">
+    <div class="slds-m-around_x-small">
+     <lightning-textarea data-field="input7" 
+                         required 
+                         value={fieldValue} 
+                         placeholder="compose your tweet" 
+                         onchange={handleChange}
+                         label="Required textarea field with a maximum length of 140 characters" 
+                         maxlength={maxValue} 
+                         message-when-too-long="A maximum of 140 characters are allowed in a tweet."
+                         message-when-value-missing="An empty tweet cannot be posted." >
+     </lightning-textarea>     
+     <input type="text" class="count" data-name="input7" value="" disabled/>
+    </div>
+
+
+     <div class="slds-m-around_x-small">
+     <lightning-textarea data-field="input8" 
+                         required 
+                         value={fieldValue} 
+                         placeholder="compose your tweet" 
+                         onchange={handleChange}
+                         label="Required textarea field with a maximum length of 140 characters" 
+                         maxlength={maxValue} 
+                         message-when-too-long="A maximum of 140 characters are allowed in a tweet."
+                         message-when-value-missing="An empty tweet cannot be posted." >
+     </lightning-textarea>
+     
+        <input type="text" class="count" data-name="input8" value="" disabled/>
+    </div>
+    </lightning-card>
+
+</template>

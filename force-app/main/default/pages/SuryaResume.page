@@ -1,0 +1,11 @@
+<apex:page Controller="pdfController" renderAs="pdf" applyHtmlTag="false" showHeader="false" cache="true" readOnly="true">
+    
+<h1>{!firstName}&nbsp;{!lastName}</h1>
+<apex:repeat value="{!project}" var="pro">
+  <p><b>Name :</b> {!pro.Name}</p>  
+  <p><b>Description :</b> {!pro.Description__c}</p>
+</apex:repeat>
+ <br/>
+   
+   
+</apex:page>

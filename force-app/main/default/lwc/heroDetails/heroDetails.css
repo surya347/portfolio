@@ -1,0 +1,71 @@
+:host {
+    position: absolute;
+    text-align: center;
+}
+
+h1,
+p {
+    color: var(--lwc-colorTextButtonBrand, white);
+    font-family: 'KlavikaWebRegularCond', 'Klavika', Helvetica;
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 0.14em;
+    line-height: 1;
+    font-size: 1.5rem;
+    margin: 0.5em 0 0.74em;
+    padding: 0;
+    text-transform:none;
+}
+
+h1 {
+    letter-spacing: 0.03em;
+    line-height: 0.88;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+a {
+    text-align: center;
+    padding: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform:none;
+}
+
+button:hover {
+    background-position: right center;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+   a{
+       font-size: 0.8rem;
+       border-radius: 1rem;
+       padding: 5px 15px;
+   }
+
+   /* .content_div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   } */
+
+   .content_div h1{
+       font-size: 40px;
+   }
+
+   .content_div p{
+       font-size: 16px;
+   }
+
+   .content_div a{
+     font-size: 22px;
+     border-radius: 1rem !important;
+   }
+        
+    }

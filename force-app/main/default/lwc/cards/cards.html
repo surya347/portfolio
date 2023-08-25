@@ -1,0 +1,50 @@
+<template>
+
+    <lightning-layout multiple-rows class="slds-align_absolute-center">
+    <template for:each={products} for:item="productInfo">
+      <div class="" key={productInfo.Id}>
+        <div class="slds-col slds-size_1-of-4 slds-align_absolute-center" >
+        <!-- <div class="slds-col slds-size_1-of-2 slds-align_absolute-center " > -->
+
+         <lightning-layout-item padding="around-medium" size="6" small-device-size="6" medium-device-size="3" class="slds-align_absolute-center">
+                <!-- card section starts here -->
+                <div class="card_body slds-p-top_medium">
+                    <div class="my-card">
+                        <div class="card-content">
+                        <div class="img-place">
+                            <div class="card-img">
+                                <!-- {productInfo.Image_Link__c} -->
+                                <img src={productInfo.Image_Link__c} alt="" />
+                            </div>
+                        </div> 
+                        <div class="card-text">
+                            <h5>{productInfo.Name}</h5>
+                            <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_4-of-12">
+                                    <span><button class="btn">$ {productInfo.Price__c}</button></span>
+                                </div>
+                                <div class="slds-col slds-size_3-of-12">
+                                    <span> </span>
+                                </div>
+                                <div class="slds-col slds-size_5-of-12">
+                                    <span>
+                                        <button class="add_cart_btn">Add To Cart</button>
+                                        <!-- <button class="btn">{productInfo.Category__c}</button> -->
+                                    </span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card section ends here -->
+    </lightning-layout-item>
+    </div>
+    <!-- </div> -->
+</div>
+
+</template>
+
+</lightning-layout>
+</template>

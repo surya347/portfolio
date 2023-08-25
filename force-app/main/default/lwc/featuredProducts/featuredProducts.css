@@ -1,0 +1,10 @@
+.featured{
+    background: white;
+}
+
+.text-featured{
+text-align: center;
+font-size: 2.5em;
+font-weight: 600;
+color: #777;
+}

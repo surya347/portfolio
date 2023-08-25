@@ -2,9 +2,9 @@
 
  <div class="header_div">
     <h3 class="logo">
-        Salesforce Noob
+        Portfolio
        <!-- <img src={sfnoob_logo} alt="sfnoob_logo" /> -->
-
+ 
     </h3>
 
     <template if:false={isCloseIcon}>
@@ -14,21 +14,25 @@
     <template if:true={isCloseIcon}>
      <lightning-button  class="menu-bar" onclick={onCloseClick} label="Close" data-id="close"></lightning-button>
     </template>
+ 
+    <!-- desktop navbar -->
 
     <nav class="navbar">
         <ul class="nav-list">
-            <li class="nav-item"><a onclick={navigationToHomePage}>Home</a></li>
-            <li class="nav-item"><a onclick={navigationToAboutPage}>About</a></li>
-            <li class="nav-item"><a href="#">Projects ></a>
-                <ul>
-                    <li class="nav-item"><a href="#">LWC</a></li>
-                    <li class="nav-item"><a href="#">Apex</a></li>
-                    <li class="nav-item"><a href="#">Salesforce</a></li>
-                </ul>
+            <li class="nav-item " data-id="home" onclick={navigationToPage}>Home</li>
+            <li class="nav-item" data-id="project_page" onclick={navigationToPage}>Projects 
+                <!-- <ul>
+                    <li class="nav-item" data-id="lwc_page" onclick={navigationToPage}>LWC</li>
+                    <li class="nav-item"  data-id="apex_page" onclick={navigationToPage}>Apex</li>
+                    <li class="nav-item"  data-id="salesforce_page" onclick={navigationToPage}>Integration</li>
+                </ul> -->
             </li>
-            <li class="nav-item"><a href="#">Contact</a></li>
+            <li class="nav-item" data-id="about_page" onclick={navigationToPage}>About</li>
+            <li class="nav-item" data-id="contact_page" onclick={navigationToPage}>Contact</li>
           </ul>
     </nav>
+
+    <!-- mobile navbar -->
 
     <template if:true={isCloseIcon}>
     <nav class="navbars">
@@ -48,7 +52,5 @@
 </template>
 
 </div>
-
-
     
 </template>

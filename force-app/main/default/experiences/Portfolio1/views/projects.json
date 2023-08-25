@@ -1,0 +1,60 @@
+{
+  "appPageId" : "f0d77dfe-3d58-40af-b300-f6253d3ec82f",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "675e8950-8f9f-4160-a250-ada21fa5afc8",
+  "label" : "Projects",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"ead29508-a407-4b43-aa34-73aa573e0ed1\",\"columns\":[{\"UUID\":\"a7cf948c-fbca-4bd6-8372-7b1ef32e4894\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "ead29508-a407-4b43-aa34-73aa573e0ed1",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:projectDetails",
+          "id" : "4f23e707-d7fc-491c-bacb-25bec97e9f05",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a7cf948c-fbca-4bd6-8372-7b1ef32e4894",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "97521c42-d8e5-4202-9cb4-8c5c85abac74",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Projects",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "850fb974-2375-43c7-9779-f2f8859e7030",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2546e978-0416-48c5-8be6-d809b6e2d7fb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ukk3Q23gm9SMGKlpWHEHpaS2kBK11N",
+  "type" : "view",
+  "viewType" : "custom-projects"
+}

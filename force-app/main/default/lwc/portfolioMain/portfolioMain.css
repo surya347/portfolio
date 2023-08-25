@@ -6,29 +6,30 @@
     color: white;
     padding: 8px;
     padding-left: 0px;
+		
+		
 }
 
 .colz .colz-icon i:hover{
     transform: scale(1.5);
 }
 
-.primary_text{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.primary_text h1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 2rem !important
 }
 
-.secondary_text{
+.secondary_text h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem !important;
     color: grey;
 }
 
 .para_text{
-
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 100;
 
 }
@@ -61,12 +62,26 @@
 }
 
 
+.para_text{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.project_info{
+   color: #743dbc ;
+    font-family: 'Salesforce Sans';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 .profile-pic-background img{
     height: 100%;
     width: 80%;
     /* background-image: url(../../assets/HOME/Sf_noob_logo.png); */
     background-size: cover;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background-repeat: no-repeat;
     background-position: center;
 
@@ -78,7 +93,7 @@
 }
 
 .profile-detail-name{
-    font-size: 24px;
+/*     font-size: 24px; */
     font-family:'Poppins SemiBold';
 }
 
@@ -98,12 +113,11 @@
     font-weight: 600;
     border-radius: 1.5rem;
     padding: 11px 30px;
-    z-index: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .profile-options .highlighted-btn:hover{
-    margin: 0 0 0 28px;
+    
     background-color: cornsilk;
     color: black;
 }
@@ -168,12 +182,12 @@
         display: none !important;
     }
 
-    .primary_text{
-        font-size: 20px;
-        text-align: center;
+    .primary_text h1{
+        font-size: 30px;
+        text-align: center !important;
     }
 
-    .secondary_text{
+    .secondary_text h4{
         text-align: center !important;
         float: none;
     }
@@ -193,4 +207,4 @@
     }
 
 
-} 
+}

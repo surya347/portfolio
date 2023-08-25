@@ -1,0 +1,10 @@
+.dummy{
+	color : black;
+}
+
+.my-radio-group{
+	  --slds-c-radio-mark-color-foreground: #743dbc;
+    --slds-c-radio-color-background-checked: white;
+	--slds-c-radio-shadow-focus:none;
+	--slds-c-radio-color-border-checked:#743dbc;
+}

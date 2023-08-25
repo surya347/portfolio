@@ -1,0 +1,98 @@
+{
+  "appPageId" : "f0d77dfe-3d58-40af-b300-f6253d3ec82f",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "95bfa552-5bf3-4a5a-9dc0-5fb6de6c64cb",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"8801eaf1-fefe-411f-8bdf-369ad45415a2\",\"columns\":[{\"UUID\":\"457de3e6-4146-4266-8332-6a5f5a9ad80d\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "8801eaf1-fefe-411f-8bdf-369ad45415a2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:portfolioMain",
+          "id" : "bee369c7-d58a-4778-9102-33e49cd2cb6a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "457de3e6-4146-4266-8332-6a5f5a9ad80d",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"072337dd-d974-4451-949d-58239eb52d32\",\"columns\":[{\"UUID\":\"f387f7b8-c71f-4c75-8bde-14c9788be535\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "072337dd-d974-4451-949d-58239eb52d32",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "skillBarvalue1" : "80",
+            "skillBarvalue2" : "90",
+            "skillBarvalue3" : "80",
+            "skillBarvalue4" : "70",
+            "skillBarvalue5" : "85",
+            "skillName1" : "Salesforce Lightning",
+            "skillName2" : "Lightning Web Component",
+            "skillName3" : "Apex, Triggers, Flows",
+            "skillName4" : "REST API Integration",
+            "skillName5" : "Service,Experience Cloud"
+          },
+          "componentName" : "c:aboutUs",
+          "id" : "5d9a02fb-f798-4180-91b7-659ee0583cb7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f387f7b8-c71f-4c75-8bde-14c9788be535",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "d6e25a11-8992-4e84-8549-568770ec4ac7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Home",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "8d696f28-35e6-40f2-8f08-28b48a69b509",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4a4bfd04-178b-4f58-99a9-f5db15cc6e9a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ukk3Q23gm9SMGKlpWHEHpaS2kBK11N",
+  "type" : "view",
+  "viewType" : "home"
+}

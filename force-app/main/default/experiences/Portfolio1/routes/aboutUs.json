@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "72401c7f-a861-4929-b4fe-836549bda26d",
+  "appPageId" : "f0d77dfe-3d58-40af-b300-f6253d3ec82f",
+  "configurationTags" : [ ],
+  "id" : "2f297821-bbf5-495c-b6a6-b40b15a0d6da",
+  "label" : "About Us",
+  "routeType" : "custom-about-us",
+  "type" : "route",
+  "urlPrefix" : "about-us"
+}
